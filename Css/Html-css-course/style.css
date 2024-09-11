@@ -1,0 +1,22 @@
+.sub{
+background-color: rgb(200, 0, 0);
+color: white;
+border: none;
+width: 105px;
+
+
+
+}
+.join{
+  background-color: aliceblue;
+  color: blueviolet;
+  font-size: 30px;
+}
+.tweet{
+  background-color: rgba(0, 0, 255, 0.45);
+  color: white;
+   font-weight: bolder;
+  font-size: 30px;
+  border: 30px;
+  border-radius:30px ;
+}
