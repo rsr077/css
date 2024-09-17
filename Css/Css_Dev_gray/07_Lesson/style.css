@@ -1,0 +1,23 @@
+body{
+  padding: 10%;
+  font-size: 2rem;
+  font-family: 'Roboto',sans-serif;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+a:active{
+  color: red;
+}

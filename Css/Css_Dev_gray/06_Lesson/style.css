@@ -1,0 +1,15 @@
+
+/* Typography is the way that text is arranged and presented. */
+
+body{
+  padding: 25%;
+  font-size: 2rem;
+  
+}
+p{
+  text-decoration: underline;
+  text-indent: 2em;
+  line-height: 1.5rm;
+  letter-spacing:1rem ;
+  word-spacing: 1rem;
+}
