@@ -1,0 +1,362 @@
+.SUBSCRIBE {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+ /*  height: 70PX;
+  width: 200PX; */
+  padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 2px;
+cursor: pointer;
+font-size: larger;
+cursor: pointer;
+margin-right: 30px;
+margin-left: 5px;
+transition: opacity 0.15s;
+}
+
+.SUBSCRIBE:hover {
+  opacity: 0.8;
+}
+.SUBSCRIBE:active {
+  opacity: 0.5;
+}
+
+.join {
+  background-color: white;
+  color: blue;
+
+font-weight: bold;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 2px;
+border-width: 1px;
+border-style: solid;
+
+font-size: large;
+cursor: pointer;
+border-color: blue;
+cursor: pointer;
+margin-left: 20px;
+transition: background-color 0.15s,color 0.15s;
+
+}
+.join:hover {
+  background-color: rgb(6, 95, 212);
+     color: white;
+}
+.join:active {
+  opacity: 0.7;
+}
+
+.tweet {
+  background-color: blue;
+  color: white;
+
+font-weight: 900;
+  /* height: 70PX;
+  width: 150PX; */
+  padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 50px;
+border-width: 1px;
+border-style: solid;
+margin-left: 20px;
+
+font-size: large;
+cursor: pointer;
+
+cursor: pointer;
+transition: box-shadow 0.15s;
+vertical-align: top;
+}
+
+.now {
+  background-color: black;
+  color: white;
+
+font-weight: 900;
+  /* height: 80PX;
+  width: 160PX;
+ */
+ padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 25px;
+padding-right: 25px;
+border-width: 1px;
+border-style: solid;
+cursor: pointer;
+border-color: rgb(209, 193, 193);
+border-width: 15px;
+
+cursor: pointer;
+}
+
+.amazon {
+  background-color: rgb(255, 216, 20);
+  color: black;
+
+ font-size: large;
+/*   height: 50PX;
+  width: 260PX; */
+  padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 90px;
+padding-right: 90px;
+
+border-width: 1px;
+border-style: none;
+cursor: pointer;
+border-radius: 30px;
+
+cursor: pointer;
+}
+
+.github {
+  background-color: rgb(46, 164, 71);
+  color: white;
+  font-weight: 800;
+
+ font-size: large;
+/*   height: 70PX;
+  width: 190PX; */
+  padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 30px;
+padding-right: 30px;
+
+border-width: 1px;
+border-style: none;
+cursor: pointer;
+border-radius: 10px;
+
+cursor: pointer;
+
+}
+.github:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap {
+  background-color: rgb(121, 82, 179);
+  color: white;
+ font-size: large;
+ font-weight: bold;
+ /*  height: 70PX;
+  width: 190PX; */
+  padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 25px;
+padding-right: 25px;
+border-style: none;
+cursor: pointer;
+border-radius: 7px;
+
+}
+.bootstrap:hover{
+  background-color: blueviolet;
+  color: white;
+}
+.bootstrap:active {
+  opacity: 0.7;
+}
+
+.download {
+  color: rgb(108, 117, 125);
+  background-color: white;
+ font-size: large;
+ font-weight: bolder;
+ border-color: black;
+ border-width: 1px;
+ /*  height: 70PX;
+  width: 190PX; */
+  padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 25px;
+padding-right: 25px;
+border-style: none;
+cursor: pointer;
+border-style: solid;
+border-radius: 7px;
+}
+.download:hover {
+  background-color: black;
+  color: white;
+}
+.download:active{
+  opacity: 0.7;
+}
+
+.linkdin {
+  background-color: rgb(10, 102, 194);
+  color: white;
+
+ font-size: large;
+ /*  height: 70PX;
+  width: 390PX; */
+  padding-top: 18px;
+padding-bottom: 18px;
+padding-left: 30px;
+padding-right: 30px;
+font-weight: bolder;
+border-style: none;
+cursor: pointer;
+border-radius: 50px;
+
+cursor: pointer;
+}
+
+.save {
+  background-color: white;
+  color: blue;
+
+font-weight: 900;
+  /* height: 70PX;
+  width: 150PX; */
+  padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 35px;
+padding-right: 35px;
+border-radius: 50px;
+border-width: 1px;
+border-style: solid;
+border-color: blue;
+font-size: large;
+cursor: pointer;
+
+}
+
+.add {
+  background-color: rgb(255, 216, 20);
+  color: black;
+
+ font-size: large;
+  /* height: 50PX;
+  width: 200PX;
+ */
+ padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 50px;
+padding-right: 50px;
+border-width: 1px;
+border-style: none;
+cursor: pointer;
+border-radius: 30px;
+
+cursor: pointer;
+}
+
+.buy {
+  background-color: rgb(214, 189, 62);
+  color: black;
+
+ font-size: large;
+ /*  height: 50PX;
+  width: 200PX; */
+  padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 50px;
+padding-right: 50px;
+
+border-width: 1px;
+border-style: none;
+cursor: pointer;
+border-radius: 30px;
+
+cursor: pointer;
+}
+
+h2 {
+  color: forestgreen;
+}
+
+.back {
+  font-size: medium;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.next {
+  font-size: medium;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  
+}
+.a {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.video-title {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.video-stats {
+ font-size: Arial;
+ font-size: 14px;
+ color: rgb(96, 96, 96);
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.video-author {
+  font-family:Arial ;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 0;
+  margin-bottom: 20;
+
+}
+
+.video-discription {
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  width: 280px;
+  line-height: 22px;
+  margin-top: 0;
+}
+
+.apple-text {
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.span-example {
+  color:red;
+  margin-left: 12px;
+}
+
+.span-example:hover {
+  text-decoration: underline;
+}
+
+.shop-link {
+  cursor: pointer;
+}
+
+.shop-link:hover{
+  text-decoration:underline;
+}

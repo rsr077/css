@@ -1,0 +1,30 @@
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+ 
+}
+ol{
+  list-style-type: upper-roman;
+  padding: 0;
+}
+  ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position:outside;
+    color: #00f;
+    line-height: 1.6;
+   list-style-image:  url("../images/thumbnail11.png");
+   list-style: square url("../thumbnail.png") inside;
+  }
+
+  ul li :nth-child(even) {
+    color: red;
+  }
+
+  ul ::marker {
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Onyl $5 >>";
+  }
